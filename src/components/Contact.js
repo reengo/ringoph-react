@@ -5,7 +5,7 @@ class Contact extends React.Component {
   render() {
     return (
 
-		<section id="contact" class="footer-block dark" data-step="5">
+		<section id="contact" class="footer-block dark text-left" data-step="5">
       <div class="container">
         <div class="footer-content row">
           <div class="col-lg-12"><h2>Contact Ringo</h2></div>
