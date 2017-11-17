@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 
 class Profile extends React.Component {
   render() {
@@ -6,7 +6,7 @@ class Profile extends React.Component {
     return (
 		<div>
       <div className="feature-image col-lg-5 col-md-5  col-xs-12">
-        <img className="img-circle img-thumbnail" src={ profile } /> 
+        <img className="img-circle img-thumbnail" src={ profile } alt="ringo profile" /> 
       </div>
       
       <div className="feature-content col-lg-7 col-md-7 col-xs-12">

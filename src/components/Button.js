@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 
 class CTAButton extends React.Component {
   render() {
@@ -7,13 +7,13 @@ class CTAButton extends React.Component {
     const btnClass = this.props.btnClass;
     const btnContent = this.props.btnContent;
     const url = this.props.url;
-    if(next == "quote"){
+    if(next === "quote"){
       return (
-        <a href={ next == "profile" || next == 'works' ? url : "#"+next}><i className={ className }></i></a>
+        <a href={ next === "profile" || next === 'works' ? url : "#"+next}><i className={ className }></i></a>
       );
     }else{
       return (
-        <a href={ next == "profile" || next == 'works' ? url : "#"+next}><button className={ btnClass }>{ btnContent }</button></a>
+        <a href={ next === "profile" || next === 'works' ? url : "#"+next}><button className={ btnClass }>{ btnContent }</button></a>
       );
     }
     

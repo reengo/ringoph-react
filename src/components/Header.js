@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import logo from '../img/logo-ringo-pad.png';
 
 
@@ -6,7 +6,7 @@ class Header extends React.Component {
   render() {
     return (
       <header className="navbar-fixed-top">
-        <nav className="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <nav className="navbar navbar-inverse navbar-fixed-top">
           <div className="navbar-header">
               <button type="button" className="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
                   <span className="sr-only">Toggle Navigation</span>
@@ -14,7 +14,7 @@ class Header extends React.Component {
                   <span className="icon-bar"></span>
                   <span className="icon-bar"></span>
               </button>
-              <a className="navbar-brand" href="#"><img src={logo} /></a></div>
+              <a className="navbar-brand" href="/"><img src={logo} alt="RingoPH"/></a></div>
 
           <div className="collapse navbar-collapse" id="navbar-collapse">
               <div className="container">

@@ -1,5 +1,4 @@
-import React, { Component } from 'react';
-import Background from '../img/image1_parallax.jpg';
+import React from 'react';
 
 class Footer extends React.Component {
   render() {

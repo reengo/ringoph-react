@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 
 import CTAButton from '../components/Button.js';
 import Avatar from '../components/Avatar.js';
@@ -17,7 +17,6 @@ class Section extends React.Component {
   render() {
   	const type = this.props.type;
   	const next = this.props.next;
-  	const avatar = this.props.avatar;
   	const className = this.props.className;
   	const background = this.props.background;
   	const welcome = this.props.title;
@@ -32,20 +31,20 @@ class Section extends React.Component {
 		<section id={ type } className={ className } data-step="5" style={{backgroundImage:"url("+background+")"}}>
 		  <div class="container">
 		    <article class="section-content row">
-		      { type == 'resume' ? <Avatar /> : '' }
+		      { type === 'resume' ? <Avatar /> : '' }
 
-		      <h2>{ welcome } { type == 'quote' ? <small>-Confucious</small> : '' }</h2>
+		      <h2>{ welcome } { type === 'quote' ? <small>-Confucious</small> : '' }</h2>
 		      
 		      { content ? ( <p class="lead"> { content } </p> ) : ('') }
 
-		      { type != 'profile' ? <CTAButton 
+		      { type !== 'profile' ? <CTAButton 
 		      	next={ next }
 		      	btnClass={ btnClass }
 		      	btnContent={ btnContent }
 		      	url={ url }
 		      	className="icon-circle-arrow-down icon-3x" /> : '' }
 
-		      { type == 'profile' ? <Profile /> : '' }
+		      { type === 'profile' ? <Profile /> : '' }
 
 		    </article>
 		  </div>

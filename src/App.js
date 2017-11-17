@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import logo from './img/logo-ringo-pad.png';
 import bgTara from './img/ringobass-tara.jpg';
 import bgLookUp from './img/image1_parallax.jpg';
 import reengoBG from './img/reengo.png';

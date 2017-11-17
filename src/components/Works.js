@@ -1,5 +1,4 @@
-import React, { Component } from 'react';
-import Background from '../img/image1_parallax.jpg';
+import React from 'react';
 
 import widget1 from '../img/widget-ctl.jpg';
 import widget2 from '../img/widget-cs.jpg';
@@ -28,57 +27,57 @@ class Works extends React.Component {
             <div class="item active">
               <div class="folio-list row">
                 <div class="folio-item col-sm-3">
-                  <a href="#"><img src={widget1} class="img-polaroid" /></a>
+                  <a href="/"><img src={widget1} class="img-polaroid" alt="widget1" /></a>
                 </div>
 
                 <div class="folio-item col-sm-3">
-                  <a href="#"><img src={widget2} class="img-polaroid" /></a>
+                  <a href="/"><img src={widget2} class="img-polaroid" alt="widget2" /></a>
                 </div>
 
                 <div class="folio-item col-sm-3">
-                  <a href="#"><img src={widget3} class="img-polaroid" /></a>
+                  <a href="/"><img src={widget3} class="img-polaroid" alt="widget3" /></a>
                 </div>
 
                 <div class="folio-item col-sm-3">
-                  <a href="#"><img src={widget4} class="img-polaroid" /></a>
+                  <a href="/"><img src={widget4} class="img-polaroid" alt="widget4" /></a>
                 </div>
               </div>
             </div>
             <div class="item">
               <div class="folio-list row">
                 <div class="folio-item col-sm-3">
-                  <a href="#"><img src={widget5} class="img-polaroid" /></a>
+                  <a href="/"><img src={widget5} class="img-polaroid" alt="widget5" /></a>
                 </div>
 
                 <div class="folio-item col-sm-3">
-                  <a href="#"><img src={widget6} class="img-polaroid" /></a>
+                  <a href="/"><img src={widget6} class="img-polaroid" alt="widget6" /></a>
                 </div>
 
                 <div class="folio-item col-sm-3">
-                  <a href="#"><img src={widget7} class="img-polaroid" /></a>
+                  <a href="/"><img src={widget7} class="img-polaroid" alt="widget7" /></a>
                 </div>
 
                 <div class="folio-item col-sm-3">
-                  <a href="#"><img src={widget8} class="img-polaroid" /></a>
+                  <a href="/"><img src={widget8} class="img-polaroid" alt="widget8" /></a>
                 </div>
               </div>
             </div>
             <div class="item">
               <div class="folio-list row">
                 <div class="folio-item col-sm-3">
-                  <a href="#"><img src={full1} class="img-polaroid" /></a>
+                  <a href="/"><img src={full1} class="img-polaroid" alt="full1" /></a>
                 </div>
 
                 <div class="folio-item col-sm-3">
-                  <a href="#"><img src={full2} class="img-polaroid" /></a>
+                  <a href="/"><img src={full2} class="img-polaroid" alt="full2" /></a>
                 </div>
 
                 <div class="folio-item col-sm-3">
-                  <a href="#"><img src={full3} class="img-polaroid" /></a>
+                  <a href="/"><img src={full3} class="img-polaroid" alt="full3" /></a>
                 </div>
                 
                 <div class="folio-item col-sm-3">
-                  <a href="#"><img src={full4} class="img-polaroid" /></a>
+                  <a href="/"><img src={full4} class="img-polaroid" alt="full4" /></a>
                 </div>
               </div>
             </div>
